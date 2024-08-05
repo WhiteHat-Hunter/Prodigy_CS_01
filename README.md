@@ -1,4 +1,4 @@
-# Caeser Cipher Algorithm Implementation Encryption & Decryption of Plain Text using Python.
+# Caesar Cipher Algorithm Implementation Encryption & Decryption of Plain Text using Python.
 
 A command-line tool for encryption and decryption using the Caesar Cipher Algorithm for both Windows & Linux. 
 
@@ -21,7 +21,7 @@ The Main Motive of this Tool is for Security Purpose, aimed at demonstrating the
 ```
 Start Terminal/Command Prompt inside the Directory where the Program Code is Stored.
 
-Run using: In Win > python Caeser-Crypt.py  |  In Linux python3 Caeser-Crypt.py
+Run using: In Win > python Caesar-Crypt.py  |  In Linux python3 Caesar-Crypt.py
 
 Choose for Option to Encrypt or Decrypt
 
