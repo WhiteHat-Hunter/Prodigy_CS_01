@@ -8,7 +8,7 @@ The Main Motive of this Tool is for Security Purpose, aimed at demonstrating the
 
 ## Getting Started
 
-### Dependencies
+### Requirements
 
 * Windows 7/10/11 or Any Linux Distro
 * Python 3.7 & Latest
