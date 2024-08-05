@@ -26,7 +26,7 @@ else:
 # Printing the figlet banner
 
 if os.name == 'nt':
-	fig = pyfiglet.figlet_format("Caeser-Crypt", font = "banner3-D", width = 80)
+	fig = pyfiglet.figlet_format("Caesar-Crypt", font = "banner3-D", width = 80)
 	print("\n")    
 	print(fig)
 
@@ -47,11 +47,11 @@ else:
 
 def encrypt():
     text = input("\nEnter text to Encrypt > ")     # Prompt the user to Enter Message Text to Encryption
-    key = int(input("\nEnter the Numerical key Value for Ceaser Encryption (eg: 1|2|3|...) > "))     # Prompt the user to Enter Key for Encryption
+    key = int(input("\nEnter the Numerical key Value for Ceasar Encryption (eg: 1|2|3|...) > "))     # Prompt the user to Enter Key for Encryption
 
     cipher = (applyKey(text, key))
     
-    print("\nEncrypted Ceaser Cipher Result > ", end="")
+    print("\nEncrypted Ceasar Cipher Result > ", end="")
     
     for i in range(len(cipher)):
         print(cipher[i], end="")
@@ -59,11 +59,11 @@ def encrypt():
 
 def decrypt():
     cipher = input("\nEnter text to Decrypt > ")    # Prompt the user to Enter Message Text to Decryption
-    key = int(input("\nEnter the Numerical key Value for Ceaser Decryption (eg: 1|2|3|...) > "))   # Prompt the user to Enter Key for Decryption
+    key = int(input("\nEnter the Numerical key Value for Ceasar Decryption (eg: 1|2|3|...) > "))   # Prompt the user to Enter Key for Decryption
 
     text = (applyKey(cipher, -key))
 
-    print("\nDecrypted Ceaser Cipher Result > ", end="")
+    print("\nDecrypted Ceasar Cipher Result > ", end="")
     
     for i in range(len(text)):
         print(text[i], end="")
